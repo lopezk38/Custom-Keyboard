@@ -1,0 +1,215 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:LED D?
+U 1 1 5EA55423
+P 4750 3250
+F 0 "D?" H 4743 2995 50  0000 C CNN
+F 1 "NUM LOCK" H 4743 3086 50  0000 C CNN
+F 2 "" H 4750 3250 50  0001 C CNN
+F 3 "~" H 4750 3250 50  0001 C CNN
+	1    4750 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EA567AA
+P 4750 3750
+F 0 "D?" H 4743 3495 50  0000 C CNN
+F 1 "CAPS LOCK" H 4743 3586 50  0000 C CNN
+F 2 "" H 4750 3750 50  0001 C CNN
+F 3 "~" H 4750 3750 50  0001 C CNN
+	1    4750 3750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5EA569E5
+P 4750 4250
+F 0 "D?" H 4743 3995 50  0000 C CNN
+F 1 "SCROLL LOCK" H 4743 4086 50  0000 C CNN
+F 2 "" H 4750 4250 50  0001 C CNN
+F 3 "~" H 4750 4250 50  0001 C CNN
+	1    4750 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA5759E
+P 4050 3250
+F 0 "R?" V 3843 3250 50  0000 C CNN
+F 1 "510" V 3934 3250 50  0000 C CNN
+F 2 "" V 3980 3250 50  0001 C CNN
+F 3 "~" H 4050 3250 50  0001 C CNN
+	1    4050 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA577A5
+P 4050 3750
+F 0 "R?" V 3843 3750 50  0000 C CNN
+F 1 "510" V 3934 3750 50  0000 C CNN
+F 2 "" V 3980 3750 50  0001 C CNN
+F 3 "~" H 4050 3750 50  0001 C CNN
+	1    4050 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA57854
+P 4050 4250
+F 0 "R?" V 3843 4250 50  0000 C CNN
+F 1 "510" V 3934 4250 50  0000 C CNN
+F 2 "" V 3980 4250 50  0001 C CNN
+F 3 "~" H 4050 4250 50  0001 C CNN
+	1    4050 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4200 3250 4600 3250
+Wire Wire Line
+	4200 3750 4600 3750
+Wire Wire Line
+	4200 4250 4600 4250
+$Comp
+L Transistor_FET:DMG2302U Q?
+U 1 1 5EA58235
+P 5500 3350
+F 0 "Q?" H 5704 3396 50  0000 L CNN
+F 1 "DMG2302U" H 5704 3305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5700 3275 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" H 5500 3350 50  0001 L CNN
+	1    5500 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:DMG2302U Q?
+U 1 1 5EA70E5F
+P 6500 3850
+F 0 "Q?" H 6704 3896 50  0000 L CNN
+F 1 "DMG2302U" H 6704 3805 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6700 3775 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" H 6500 3850 50  0001 L CNN
+	1    6500 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_FET:DMG2302U Q?
+U 1 1 5EA792B6
+P 7500 4350
+F 0 "Q?" H 7704 4396 50  0000 L CNN
+F 1 "DMG2302U" H 7704 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7700 4275 50  0001 L CIN
+F 3 "http://www.diodes.com/assets/Datasheets/DMG2302U.pdf" H 7500 4350 50  0001 L CNN
+	1    7500 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 3250 5300 3250
+Wire Wire Line
+	4900 3750 6300 3750
+Wire Wire Line
+	4900 4250 7300 4250
+Wire Wire Line
+	5700 3250 6000 3250
+Wire Wire Line
+	6000 3250 6000 3350
+Wire Wire Line
+	6700 3750 7000 3750
+Wire Wire Line
+	7700 4250 8000 4250
+Wire Wire Line
+	8000 4250 8000 4350
+$Comp
+L power:GND #PWR?
+U 1 1 5EA91069
+P 6000 3350
+F 0 "#PWR?" H 6000 3100 50  0001 C CNN
+F 1 "GND" H 6005 3177 50  0000 C CNN
+F 2 "" H 6000 3350 50  0001 C CNN
+F 3 "" H 6000 3350 50  0001 C CNN
+	1    6000 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7000 3750 7000 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5EA925AF
+P 7000 3850
+F 0 "#PWR?" H 7000 3600 50  0001 C CNN
+F 1 "GND" H 7005 3677 50  0000 C CNN
+F 2 "" H 7000 3850 50  0001 C CNN
+F 3 "" H 7000 3850 50  0001 C CNN
+	1    7000 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EA9263A
+P 8000 4350
+F 0 "#PWR?" H 8000 4100 50  0001 C CNN
+F 1 "GND" H 8005 4177 50  0000 C CNN
+F 2 "" H 8000 4350 50  0001 C CNN
+F 3 "" H 8000 4350 50  0001 C CNN
+	1    8000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4550 7500 4750
+Wire Wire Line
+	3900 3250 3500 3250
+Wire Wire Line
+	3900 3750 3500 3750
+Wire Wire Line
+	3900 4250 3500 4250
+Wire Wire Line
+	3500 4250 3500 3750
+Wire Wire Line
+	3500 3750 3500 3250
+Connection ~ 3500 3750
+Wire Wire Line
+	3500 3250 3500 3050
+Connection ~ 3500 3250
+$Comp
+L power:+5V #PWR?
+U 1 1 5EA9629E
+P 3500 3050
+F 0 "#PWR?" H 3500 2900 50  0001 C CNN
+F 1 "+5V" H 3515 3223 50  0000 C CNN
+F 2 "" H 3500 3050 50  0001 C CNN
+F 3 "" H 3500 3050 50  0001 C CNN
+	1    3500 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 4750 3500 4750
+Wire Wire Line
+	6500 4050 6500 4650
+Wire Wire Line
+	6500 4650 3500 4650
+Wire Wire Line
+	5500 3550 5500 4550
+Wire Wire Line
+	5500 4550 3500 4550
+Text HLabel 3500 4550 0    50   Input ~ 0
+NUM_LOCK
+Text HLabel 3500 4650 0    50   Input ~ 0
+CAPS_LOCK
+Text HLabel 3500 4750 0    50   Input ~ 0
+SCROLL_LOCK
+$EndSCHEMATC
