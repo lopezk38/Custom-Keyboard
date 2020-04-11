@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 11 18
 Title ""
 Date ""
 Rev ""
@@ -387,43 +387,6 @@ Entry Wire Line
 	6150 6400 6250 6500
 Entry Wire Line
 	6150 6500 6250 6600
-Wire Bus Line
-	6350 6200 6250 6200
-Wire Bus Line
-	6350 6100 6250 6100
-Connection ~ 6350 6100
-Wire Bus Line
-	6350 6100 6350 6200
-Wire Bus Line
-	6350 6000 6250 6000
-Connection ~ 6350 6000
-Wire Bus Line
-	6350 6000 6350 6100
-Wire Bus Line
-	6350 5900 6250 5900
-Connection ~ 6350 5900
-Wire Bus Line
-	6350 5900 6350 6000
-Wire Bus Line
-	6350 5800 6250 5800
-Connection ~ 6350 5800
-Wire Bus Line
-	6350 5800 6350 5900
-Wire Bus Line
-	6350 5700 6250 5700
-Connection ~ 6350 5700
-Wire Bus Line
-	6350 5700 6350 5800
-Wire Bus Line
-	6350 5600 6250 5600
-Connection ~ 6350 5600
-Wire Bus Line
-	6350 5600 6350 5700
-Wire Bus Line
-	6350 5500 6250 5500
-Connection ~ 6350 5500
-Wire Bus Line
-	6350 5500 6350 5600
 Entry Wire Line
 	3200 2900 3300 2800
 Entry Wire Line
@@ -464,29 +427,10 @@ Entry Wire Line
 	7100 3100 7200 3000
 Entry Wire Line
 	7100 3200 7200 3100
-Wire Bus Line
-	6250 6300 6450 6300
-Wire Bus Line
-	6250 6400 6450 6400
-Wire Bus Line
-	6250 6500 6450 6500
-Wire Bus Line
-	6250 6600 6450 6600
-Connection ~ 6450 6300
-Connection ~ 6450 6400
-Wire Bus Line
-	6450 6400 6450 6300
-Connection ~ 6450 6500
-Wire Bus Line
-	6450 6500 6450 6400
-Wire Bus Line
-	6450 6600 6450 6500
 Text HLabel 10100 1150 0    50   Input ~ 0
 SHIFT_0_DATA_IN
 Wire Wire Line
 	10100 1150 10600 1150
-Wire Bus Line
-	6350 4300 6350 5500
 Wire Wire Line
 	1000 1150 1400 1150
 Wire Wire Line
@@ -499,8 +443,6 @@ Wire Wire Line
 	1300 5750 2700 5750
 Wire Wire Line
 	9350 1250 9350 3500
-Wire Bus Line
-	3200 4400 6250 4400
 Wire Wire Line
 	1500 1050 4100 1050
 Connection ~ 1500 1050
@@ -515,8 +457,6 @@ Wire Wire Line
 Connection ~ 1300 1550
 Wire Wire Line
 	8500 3500 9350 3500
-Wire Bus Line
-	6450 4300 6450 6300
 $Sheet
 S 4650 4550 1250 2050
 U 5EAE0F3A
@@ -602,8 +542,6 @@ Wire Wire Line
 	5900 6500 6150 6500
 Wire Wire Line
 	1500 4650 4650 4650
-Wire Bus Line
-	7100 4300 6450 4300
 Wire Wire Line
 	7200 2800 7400 2800
 Wire Wire Line
@@ -629,13 +567,19 @@ Wire Wire Line
 Wire Wire Line
 	5200 3500 5400 3500
 Wire Bus Line
-	5100 4300 6350 4300
+	6250 4350 5100 4350
+Connection ~ 5100 4350
 Wire Bus Line
-	7100 2900 7100 4300
+	5100 4350 3200 4350
 Wire Bus Line
-	5100 2900 5100 4300
+	6250 4350 7100 4350
 Wire Bus Line
-	3200 2900 3200 4400
+	7100 2900 7100 4350
 Wire Bus Line
-	6250 4400 6250 5400
+	3200 2900 3200 4350
+Wire Bus Line
+	5100 2900 5100 4350
+Wire Bus Line
+	6250 4350 6250 6600
+Connection ~ 6250 4350
 $EndSCHEMATC
