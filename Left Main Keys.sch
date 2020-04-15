@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 18
+Sheet 16 18
 Title ""
 Date ""
 Rev ""
@@ -89,8 +89,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 1550 3950 2050
 Wire Wire Line
-	3950 1550 5150 1550
-Wire Wire Line
 	5950 1550 5950 2050
 Connection ~ 3950 1550
 Wire Wire Line
@@ -107,8 +105,6 @@ Wire Wire Line
 	7950 1550 7950 2050
 Connection ~ 5950 1550
 Connection ~ 8100 1050
-Wire Wire Line
-	5950 1550 7150 1550
 Wire Wire Line
 	3350 1250 3350 2150
 Wire Wire Line
@@ -141,10 +137,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 2250 7400 2250
 Connection ~ 5250 1350
-Wire Wire Line
-	3400 2400 3150 2400
-Wire Wire Line
-	3150 2400 3150 1550
 Connection ~ 3150 1550
 Wire Wire Line
 	3150 1550 3800 1550
@@ -153,20 +145,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 2500 3050 1450
 Connection ~ 3050 1450
-Wire Wire Line
-	5400 2400 5150 2400
-Wire Wire Line
-	5150 2400 5150 1550
-Connection ~ 5150 1550
-Wire Wire Line
-	5150 1550 5800 1550
-Wire Wire Line
-	7400 2400 7150 2400
-Wire Wire Line
-	7150 2400 7150 1550
-Connection ~ 7150 1550
-Wire Wire Line
-	7150 1550 7800 1550
 Wire Wire Line
 	3050 1450 5050 1450
 Wire Wire Line
@@ -181,10 +159,7 @@ Connection ~ 5050 1450
 Wire Wire Line
 	5050 1450 7050 1450
 Wire Wire Line
-	3150 2400 3150 2700
-Wire Wire Line
 	3150 2700 3400 2700
-Connection ~ 3150 2400
 $Comp
 L Device:C C?
 U 1 1 5EAE0E47
@@ -443,15 +418,11 @@ Wire Wire Line
 	1300 5750 2700 5750
 Wire Wire Line
 	9350 1250 9350 3500
-Wire Wire Line
-	1500 1050 4100 1050
 Connection ~ 1500 1050
 Wire Wire Line
 	1000 1250 3350 1250
 Wire Wire Line
 	1000 1350 3250 1350
-Wire Wire Line
-	1000 1450 3050 1450
 Wire Wire Line
 	1300 1550 3150 1550
 Connection ~ 1300 1550
@@ -485,8 +456,6 @@ F21 "LSHFT" O R 5900 6000 50
 F22 "LCTRL" O R 5900 6300 50 
 F23 "LWIND" O R 5900 6400 50 
 $EndSheet
-Wire Wire Line
-	1300 1550 1300 4750
 Wire Wire Line
 	4650 4750 1300 4750
 Connection ~ 1300 4750
@@ -573,13 +542,84 @@ Wire Bus Line
 	5100 4350 3200 4350
 Wire Bus Line
 	6250 4350 7100 4350
+Connection ~ 6250 4350
+Wire Wire Line
+	3150 1550 3150 2700
+Wire Wire Line
+	3950 1550 5800 1550
+Wire Wire Line
+	5950 1550 7800 1550
+Wire Wire Line
+	1300 1550 1300 2000
+$Comp
+L dk_Logic-Gates-and-Inverters:SN74LVC1G04DBVR U?
+U 1 1 5EC63679
+P 1850 2100
+F 0 "U?" V 1747 2344 60  0000 L CNN
+F 1 "SN74LVC1G04DBVR" V 1853 2344 60  0000 L CNN
+F 2 "digikey-footprints:SOT-753" H 2050 2300 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 2050 2400 60  0001 L CNN
+F 4 "296-11599-1-ND" H 2050 2500 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74LVC1G04DBVR" H 2050 2600 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 2050 2700 60  0001 L CNN "Category"
+F 7 "Logic - Gates and Inverters" H 2050 2800 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 2050 2900 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/SN74LVC1G04DBVR/296-11599-1-ND/385738" H 2050 3000 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC INVERTER 1CH 1-INP SOT23-5" H 2050 3100 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 2050 3200 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2050 3300 60  0001 L CNN "Status"
+	1    1850 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1650 2000 1300 2000
+Wire Wire Line
+	1000 1450 1850 1450
+Wire Wire Line
+	1500 1050 2250 1050
+Connection ~ 1300 2000
+Wire Wire Line
+	1300 2000 1300 4750
+Wire Wire Line
+	1850 1800 1850 1450
+Connection ~ 1850 1450
+Wire Wire Line
+	1850 1450 3050 1450
+Wire Wire Line
+	2050 2100 2250 2100
+Wire Wire Line
+	2250 2100 2250 1050
+Connection ~ 2250 1050
+Wire Wire Line
+	2250 1050 4100 1050
+Wire Wire Line
+	1850 2300 1850 2400
+Wire Wire Line
+	1850 2400 2650 2400
+Wire Wire Line
+	2650 2400 2650 1150
+Wire Wire Line
+	2650 1150 5150 1150
+Wire Wire Line
+	5150 1150 5150 2400
+Wire Wire Line
+	5150 2400 5400 2400
+Connection ~ 2650 2400
+Wire Wire Line
+	2650 2400 3400 2400
+Wire Wire Line
+	5150 1150 7150 1150
+Wire Wire Line
+	7150 1150 7150 2400
+Wire Wire Line
+	7150 2400 7400 2400
+Connection ~ 5150 1150
 Wire Bus Line
 	7100 2900 7100 4350
 Wire Bus Line
-	3200 2900 3200 4350
-Wire Bus Line
 	5100 2900 5100 4350
 Wire Bus Line
+	3200 2900 3200 4350
+Wire Bus Line
 	6250 4350 6250 6600
-Connection ~ 6250 4350
 $EndSCHEMATC

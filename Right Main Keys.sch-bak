@@ -89,8 +89,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 1600 3950 2100
 Wire Wire Line
-	3950 1600 5150 1600
-Wire Wire Line
 	5950 1600 5950 2100
 Connection ~ 3950 1600
 Wire Wire Line
@@ -107,8 +105,6 @@ Wire Wire Line
 	7950 1600 7950 2100
 Connection ~ 5950 1600
 Connection ~ 8100 1100
-Wire Wire Line
-	5950 1600 7150 1600
 Wire Wire Line
 	3350 1300 3350 2200
 Wire Wire Line
@@ -141,10 +137,6 @@ Wire Wire Line
 Wire Wire Line
 	7250 2300 7400 2300
 Connection ~ 5250 1400
-Wire Wire Line
-	3400 2450 3150 2450
-Wire Wire Line
-	3150 2450 3150 1600
 Connection ~ 3150 1600
 Wire Wire Line
 	3150 1600 3800 1600
@@ -153,20 +145,6 @@ Wire Wire Line
 Wire Wire Line
 	3050 2550 3050 1500
 Connection ~ 3050 1500
-Wire Wire Line
-	5400 2450 5150 2450
-Wire Wire Line
-	5150 2450 5150 1600
-Connection ~ 5150 1600
-Wire Wire Line
-	5150 1600 5800 1600
-Wire Wire Line
-	7400 2450 7150 2450
-Wire Wire Line
-	7150 2450 7150 1600
-Connection ~ 7150 1600
-Wire Wire Line
-	7150 1600 7800 1600
 Wire Wire Line
 	3050 1500 5050 1500
 Wire Wire Line
@@ -181,10 +159,7 @@ Connection ~ 5050 1500
 Wire Wire Line
 	5050 1500 7050 1500
 Wire Wire Line
-	3150 2450 3150 2750
-Wire Wire Line
 	3150 2750 3400 2750
-Connection ~ 3150 2450
 $Comp
 L Device:C C?
 U 1 1 5F496A39
@@ -618,14 +593,6 @@ Wire Bus Line
 Wire Bus Line
 	7100 4400 6250 4400
 Connection ~ 6250 4400
-Wire Bus Line
-	3200 2950 3200 4400
-Wire Bus Line
-	5100 2950 5100 4400
-Wire Bus Line
-	7100 2950 7100 4400
-Wire Bus Line
-	6250 4400 6250 7050
 $Sheet
 S 2700 5600 1000 950 
 U 5FECF693
@@ -634,4 +601,40 @@ F1 "Right Main LEDs.sch" 50
 F2 "DIMMER" I L 2700 5700 50 
 F3 "GND" I L 2700 5800 50 
 $EndSheet
+Wire Wire Line
+	3150 1600 3150 2750
+Wire Wire Line
+	3950 1600 5800 1600
+Wire Wire Line
+	5950 1600 7800 1600
+$Comp
+L dk_Logic-Gates-and-Inverters:SN74LVC1G04DBVR U?
+U 1 1 5EE03D46
+P 1800 -650
+AR Path="/5E8C755A/5EE03D46" Ref="U?"  Part="1" 
+AR Path="/5E8C77AE/5EE03D46" Ref="U?"  Part="1" 
+F 0 "U?" V 1697 -406 60  0000 L CNN
+F 1 "SN74LVC1G04DBVR" V 1803 -406 60  0000 L CNN
+F 2 "digikey-footprints:SOT-753" H 2000 -450 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 2000 -350 60  0001 L CNN
+F 4 "296-11599-1-ND" H 2000 -250 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74LVC1G04DBVR" H 2000 -150 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 2000 -50 60  0001 L CNN "Category"
+F 7 "Logic - Gates and Inverters" H 2000 50  60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 2000 150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/SN74LVC1G04DBVR/296-11599-1-ND/385738" H 2000 250 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC INVERTER 1CH 1-INP SOT23-5" H 2000 350 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 2000 450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2000 550 60  0001 L CNN "Status"
+	1    1800 -650
+	0    1    1    0   
+$EndComp
+Wire Bus Line
+	3200 2950 3200 4400
+Wire Bus Line
+	5100 2950 5100 4400
+Wire Bus Line
+	7100 2950 7100 4400
+Wire Bus Line
+	6250 4400 6250 7050
 $EndSCHEMATC

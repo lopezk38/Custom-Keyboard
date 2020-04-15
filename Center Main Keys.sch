@@ -110,12 +110,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 1500 2700 2000
 Wire Wire Line
-	2700 1500 3900 1500
-Wire Wire Line
 	4700 1500 4700 2000
 Connection ~ 2700 1500
 Wire Wire Line
-	2850 1000 4850 1000
+	2850 1000 3550 1000
 Wire Wire Line
 	4850 1000 4850 2000
 Connection ~ 2850 1000
@@ -128,17 +126,11 @@ Wire Wire Line
 	6700 1500 6700 2000
 Connection ~ 4700 1500
 Wire Wire Line
-	6850 1000 8850 1000
-Wire Wire Line
 	8850 1000 8850 2000
 Connection ~ 6850 1000
 Wire Wire Line
 	8700 1500 8700 2000
-Wire Wire Line
-	4700 1500 5900 1500
 Connection ~ 6700 1500
-Wire Wire Line
-	6700 1500 7900 1500
 Wire Wire Line
 	2100 1200 2100 2100
 Wire Wire Line
@@ -185,64 +177,19 @@ Wire Wire Line
 Wire Wire Line
 	8000 2200 8150 2200
 Connection ~ 6000 1300
-Wire Wire Line
-	2150 2350 1900 2350
-Wire Wire Line
-	1900 2350 1900 1500
 Connection ~ 1900 1500
 Wire Wire Line
 	1900 1500 2550 1500
 Wire Wire Line
-	2150 2450 1800 2450
+	1700 2450 1700 1400
 Wire Wire Line
-	1800 2450 1800 1400
-Connection ~ 1800 1400
+	7750 1400 7750 2450
 Wire Wire Line
-	4150 2350 3900 2350
+	5750 2450 5750 1400
 Wire Wire Line
-	3900 2350 3900 1500
-Connection ~ 3900 1500
-Wire Wire Line
-	3900 1500 4550 1500
-Wire Wire Line
-	6150 2350 5900 2350
-Wire Wire Line
-	5900 2350 5900 1500
-Connection ~ 5900 1500
-Wire Wire Line
-	5900 1500 6550 1500
-Wire Wire Line
-	8150 2350 7900 2350
-Wire Wire Line
-	7900 2350 7900 1500
-Connection ~ 7900 1500
-Wire Wire Line
-	7900 1500 8550 1500
-Wire Wire Line
-	7800 1400 7800 2450
-Wire Wire Line
-	7800 2450 8150 2450
-Wire Wire Line
-	1800 1400 3800 1400
-Wire Wire Line
-	6150 2450 5800 2450
-Wire Wire Line
-	5800 2450 5800 1400
-Connection ~ 5800 1400
-Wire Wire Line
-	5800 1400 7800 1400
-Wire Wire Line
-	4150 2450 3800 2450
-Wire Wire Line
-	3800 2450 3800 1400
-Connection ~ 3800 1400
-Wire Wire Line
-	3800 1400 5800 1400
-Wire Wire Line
-	1900 2350 1900 2650
+	3750 2450 3750 1400
 Wire Wire Line
 	1900 2650 2150 2650
-Connection ~ 1900 2350
 $Comp
 L Device:C C?
 U 1 1 5E900FC9
@@ -322,8 +269,6 @@ Wire Wire Line
 	1000 1200 2100 1200
 Wire Wire Line
 	1000 1300 2000 1300
-Wire Wire Line
-	1000 1400 1800 1400
 Wire Wire Line
 	1000 1500 1300 1500
 Wire Wire Line
@@ -779,31 +724,134 @@ Connection ~ 1300 1500
 Wire Wire Line
 	1300 1500 1900 1500
 Wire Wire Line
-	4800 4700 1300 4700
+	4800 4700 3450 4700
 Connection ~ 1300 4700
 Wire Wire Line
 	1300 4700 1300 5700
 Wire Wire Line
 	9350 1200 9350 3450
-Connection ~ 3950 4300
 Wire Bus Line
-	3950 4300 1950 4300
-Connection ~ 5950 4300
+	1950 3650 3950 3650
+Connection ~ 3950 3650
 Wire Bus Line
-	5950 4300 3950 4300
+	3950 3650 5950 3650
+Connection ~ 5950 3650
 Wire Bus Line
-	5950 4300 6250 4300
+	5950 3650 6250 3650
+Connection ~ 6250 3650
 Wire Bus Line
-	7950 2850 7950 4300
+	6250 3650 7950 3650
+Wire Wire Line
+	1900 1500 1900 2650
+Wire Wire Line
+	2150 2350 1800 2350
+Connection ~ 1700 1400
+Wire Wire Line
+	1700 1400 3750 1400
+Wire Wire Line
+	1700 2450 2150 2450
+Wire Wire Line
+	1000 1400 1700 1400
+Wire Wire Line
+	2700 1500 4550 1500
+Wire Wire Line
+	3850 2350 4150 2350
+Connection ~ 3750 1400
+Wire Wire Line
+	3750 1400 5750 1400
+Wire Wire Line
+	3750 2450 4150 2450
+Wire Wire Line
+	4700 1500 6550 1500
+Connection ~ 5750 1400
+Wire Wire Line
+	5750 1400 7750 1400
+Wire Wire Line
+	5750 2450 6150 2450
+Wire Wire Line
+	5850 2350 6150 2350
+Wire Wire Line
+	6700 1500 8550 1500
+Wire Wire Line
+	7750 2450 8150 2450
+Wire Wire Line
+	7850 2350 8150 2350
+Wire Wire Line
+	7650 6400 6900 6400
+Wire Wire Line
+	6900 6400 6900 7700
+Wire Wire Line
+	6900 7700 1300 7700
+Wire Wire Line
+	1300 7700 1300 5700
+Connection ~ 1300 5700
+Wire Wire Line
+	6850 1000 8850 1000
+$Comp
+L dk_Logic-Gates-and-Inverters:SN74LVC1G04DBVR U?
+U 1 1 5ECE7149
+P 3550 4350
+AR Path="/5E8C755A/5ECE7149" Ref="U?"  Part="1" 
+AR Path="/5E8C7194/5ECE7149" Ref="U?"  Part="1" 
+F 0 "U?" V 3447 4594 60  0000 L CNN
+F 1 "SN74LVC1G04DBVR" V 3553 4594 60  0000 L CNN
+F 2 "digikey-footprints:SOT-753" H 3750 4550 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 3750 4650 60  0001 L CNN
+F 4 "296-11599-1-ND" H 3750 4750 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN74LVC1G04DBVR" H 3750 4850 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3750 4950 60  0001 L CNN "Category"
+F 7 "Logic - Gates and Inverters" H 3750 5050 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 3750 5150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/SN74LVC1G04DBVR/296-11599-1-ND/385738" H 3750 5250 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC INVERTER 1CH 1-INP SOT23-5" H 3750 5350 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 3750 5450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3750 5550 60  0001 L CNN "Status"
+	1    3550 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4350 1700 4350
+Connection ~ 1700 2450
+Connection ~ 3550 1000
+Wire Wire Line
+	3550 1000 4850 1000
+Wire Wire Line
+	3450 4550 3450 4700
+Connection ~ 3450 4700
+Wire Wire Line
+	3450 4700 1300 4700
+Wire Wire Line
+	3750 4350 3850 4350
+Wire Wire Line
+	1700 2450 1700 4350
+Wire Wire Line
+	3550 1000 3550 4150
+Wire Wire Line
+	3850 2350 3850 4000
+Wire Wire Line
+	3850 4000 1800 4000
+Wire Wire Line
+	1800 4000 1800 2350
+Connection ~ 3850 4000
+Wire Wire Line
+	3850 4000 3850 4350
+Wire Wire Line
+	3850 4000 5850 4000
+Wire Wire Line
+	5850 4000 5850 2350
+Wire Wire Line
+	5850 4000 7850 4000
+Wire Wire Line
+	7850 4000 7850 2350
+Connection ~ 5850 4000
 Wire Bus Line
-	1950 2850 1950 4300
+	7950 2850 7950 3650
 Wire Bus Line
-	3950 2850 3950 4300
+	5950 2850 5950 3650
 Wire Bus Line
-	5950 2850 5950 4300
+	3950 2850 3950 3650
 Wire Bus Line
-	6250 4300 6250 7550
-Connection ~ 6250 4300
+	1950 2850 1950 3650
 Wire Bus Line
-	6250 4300 7950 4300
+	6250 3650 6250 7550
 $EndSCHEMATC
