@@ -312,7 +312,7 @@ U 1 1 5E8EAF9B
 P 9800 5750
 F 0 "J7" H 9850 6167 50  0000 C CNN
 F 1 "DEBUG" H 9850 6076 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 9800 5750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 9800 5750 50  0001 C CNN
 F 3 "~" H 9800 5750 50  0001 C CNN
 	1    9800 5750
 	-1   0    0    -1  
