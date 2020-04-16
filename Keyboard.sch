@@ -32,10 +32,10 @@ F12 "GND" O R 8950 1150 50
 F13 "DIMMER" O R 8950 1350 50 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_02x14_Odd_Even J?
+L Connector_Generic:Conn_02x14_Odd_Even J1
 U 1 1 5EBFED5A
 P 8200 2750
-F 0 "J?" V 8204 1962 50  0000 R CNN
+F 0 "J1" V 8204 1962 50  0000 R CNN
 F 1 "SOLDER_PAD_CONNECTION" V 8295 1962 50  0000 R CNN
 F 2 "Solder Pad Connections:Solder_Pad_Bridge_Connections" H 8200 2750 50  0001 C CNN
 F 3 "~" H 8200 2750 50  0001 C CNN
@@ -175,10 +175,10 @@ F7 "GND" I L 11650 4300 50
 F8 "SHIFT_4_DATA" O R 13150 3800 50 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_02x14_Odd_Even J?
+L Connector_Generic:Conn_02x14_Odd_Even J4
 U 1 1 5EB88EB0
 P 5950 6900
-F 0 "J?" V 5954 6112 50  0000 R CNN
+F 0 "J4" V 5954 6112 50  0000 R CNN
 F 1 "SOLDER_PAD_CONNECTION" V 6045 6112 50  0000 R CNN
 F 2 "Solder Pad Connections:Solder_Pad_Bridge_Connections" H 5950 6900 50  0001 C CNN
 F 3 "~" H 5950 6900 50  0001 C CNN
@@ -405,10 +405,10 @@ F9 "SHIFT_3_DATA" O R 13150 6300 50
 F10 "SHIFT_4_DATA_IN" I L 11650 7600 50 
 $EndSheet
 $Comp
-L Connector_Generic:Conn_02x14_Odd_Even J?
+L Connector_Generic:Conn_02x14_Odd_Even J5
 U 1 1 5F364499
 P 10050 6900
-F 0 "J?" V 10054 6112 50  0000 R CNN
+F 0 "J5" V 10054 6112 50  0000 R CNN
 F 1 "SOLDER_PAD_CONNECTION" V 10145 6112 50  0000 R CNN
 F 2 "Solder Pad Connections:Solder_Pad_Bridge_Connections" H 10050 6900 50  0001 C CNN
 F 3 "~" H 10050 6900 50  0001 C CNN
@@ -470,10 +470,10 @@ Wire Bus Line
 Wire Bus Line
 	9300 6500 6700 6500
 $Comp
-L Connector_Generic:Conn_02x14_Odd_Even J?
+L Connector_Generic:Conn_02x14_Odd_Even J2
 U 1 1 5F3CAD0C
 P 1550 5750
-F 0 "J?" V 1554 4962 50  0000 R CNN
+F 0 "J2" V 1554 4962 50  0000 R CNN
 F 1 "SOLDER_PAD_CONNECTION" V 1645 4962 50  0000 R CNN
 F 2 "Solder Pad Connections:Solder_Pad_Bridge_Connections" H 1550 5750 50  0001 C CNN
 F 3 "~" H 1550 5750 50  0001 C CNN
@@ -497,10 +497,10 @@ Wire Wire Line
 Wire Wire Line
 	10550 6400 10350 6400
 $Comp
-L Connector_Generic:Conn_02x14_Odd_Even J?
+L Connector_Generic:Conn_02x14_Odd_Even J3
 U 1 1 6019F7ED
 P 14750 5750
-F 0 "J?" V 14754 4962 50  0000 R CNN
+F 0 "J3" V 14754 4962 50  0000 R CNN
 F 1 "SOLDER_PAD_CONNECTION" V 14845 4962 50  0000 R CNN
 F 2 "Solder Pad Connections:Solder_Pad_Bridge_Connections" H 14750 5750 50  0001 C CNN
 F 3 "~" H 14750 5750 50  0001 C CNN
@@ -932,6 +932,77 @@ Wire Bus Line
 	11000 3500 14850 3500
 Wire Bus Line
 	14850 3500 14850 4800
+NoConn ~ 14850 5950
+NoConn ~ 14750 5950
+NoConn ~ 14650 5950
+NoConn ~ 14550 5950
+NoConn ~ 14450 5950
+NoConn ~ 14350 5950
+NoConn ~ 14250 5950
+NoConn ~ 14250 5450
+NoConn ~ 14350 5450
+NoConn ~ 14450 5450
+NoConn ~ 14550 5450
+NoConn ~ 14650 5450
+NoConn ~ 14750 5450
+NoConn ~ 14850 5450
+NoConn ~ 8100 3050
+NoConn ~ 8200 3050
+NoConn ~ 8300 3050
+NoConn ~ 8300 2550
+NoConn ~ 8200 2550
+NoConn ~ 10350 6500
+NoConn ~ 10350 6600
+NoConn ~ 10350 6700
+NoConn ~ 10350 6800
+NoConn ~ 10350 6900
+NoConn ~ 10350 7000
+NoConn ~ 9850 7000
+NoConn ~ 9850 6900
+NoConn ~ 9850 6800
+NoConn ~ 9850 6700
+NoConn ~ 9850 6600
+NoConn ~ 9850 6500
+NoConn ~ 6150 7000
+NoConn ~ 6150 6900
+NoConn ~ 6150 6800
+NoConn ~ 6150 6700
+NoConn ~ 6150 6600
+NoConn ~ 6150 6500
+NoConn ~ 5650 6500
+NoConn ~ 5650 6600
+NoConn ~ 5650 6700
+NoConn ~ 5650 6800
+NoConn ~ 5650 6900
+NoConn ~ 5650 7000
+NoConn ~ 1650 5950
+NoConn ~ 1650 5450
+NoConn ~ 1550 5450
+NoConn ~ 1550 5950
+NoConn ~ 1450 5950
+NoConn ~ 1450 5450
+NoConn ~ 1350 5450
+NoConn ~ 1250 5450
+NoConn ~ 1150 5450
+NoConn ~ 1050 5450
+NoConn ~ 1050 5950
+NoConn ~ 1150 5950
+NoConn ~ 1250 5950
+Text Label 11600 3800 2    50   ~ 0
+CTKEYS_3.3V
+Text Label 11600 3900 2    50   ~ 0
+CTKEYS_DIM
+Text Label 11600 4000 2    50   ~ 0
+CTKEYS_RES
+Text Label 11600 4100 2    50   ~ 0
+CTKEYS_CLK
+Text Label 11600 4200 2    50   ~ 0
+CTKEYS_RCLK
+Text Label 11600 4300 2    50   ~ 0
+CTKEYS_GND
+NoConn ~ 1350 5950
+NoConn ~ 7500 5650
+NoConn ~ 9000 5000
 Wire Bus Line
 	2400 6400 2400 6700
 Wire Bus Line

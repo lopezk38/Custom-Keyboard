@@ -27,34 +27,6 @@ Text HLabel 1000 1600 0    50   Input ~ 0
 GND
 Text HLabel 10600 1300 2    50   Output ~ 0
 SHIFT_4_DATA
-$Comp
-L 74xx_IEEE:74LS597 U?
-U 1 1 6064AC4A
-P 4950 2900
-AR Path="/5E8C77AE/6064AC4A" Ref="U?"  Part="1" 
-AR Path="/5E8C755A/6064AC4A" Ref="U?"  Part="1" 
-AR Path="/5E8C79BD/6064AC4A" Ref="U?"  Part="1" 
-F 0 "U?" H 4950 3916 50  0000 C CNN
-F 1 "74LS597" H 4950 3825 50  0000 C CNN
-F 2 "" H 4950 2900 50  0001 C CNN
-F 3 "" H 4950 2900 50  0001 C CNN
-	1    4950 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74xx_IEEE:74LS597 U?
-U 1 1 6064AC50
-P 6950 2900
-AR Path="/5E8C77AE/6064AC50" Ref="U?"  Part="1" 
-AR Path="/5E8C755A/6064AC50" Ref="U?"  Part="1" 
-AR Path="/5E8C79BD/6064AC50" Ref="U?"  Part="1" 
-F 0 "U?" H 6950 3916 50  0000 C CNN
-F 1 "74LS597" H 6950 3825 50  0000 C CNN
-F 2 "" H 6950 2900 50  0001 C CNN
-F 3 "" H 6950 2900 50  0001 C CNN
-	1    6950 2900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 1400 4250 2300
 Wire Wire Line
@@ -66,17 +38,12 @@ Wire Wire Line
 Wire Wire Line
 	5600 2750 6400 2750
 Wire Wire Line
-	5100 1100 5100 2100
-Wire Wire Line
 	4950 1600 4950 2100
 Wire Wire Line
 	6950 1600 6950 2100
 Connection ~ 4950 1600
 Wire Wire Line
-	5100 1100 7100 1100
-Wire Wire Line
 	7100 1100 7100 2100
-Connection ~ 5100 1100
 Connection ~ 7100 1100
 Wire Wire Line
 	4350 1300 4350 2200
@@ -118,10 +85,10 @@ U 1 1 6064AC9E
 P 4950 900
 AR Path="/5E8C77AE/6064AC9E" Ref="C?"  Part="1" 
 AR Path="/5E8C755A/6064AC9E" Ref="C?"  Part="1" 
-AR Path="/5E8C79BD/6064AC9E" Ref="C?"  Part="1" 
-F 0 "C?" V 4698 900 50  0000 C CNN
+AR Path="/5E8C79BD/6064AC9E" Ref="C43"  Part="1" 
+F 0 "C43" V 4698 900 50  0000 C CNN
 F 1 "1n" V 4789 900 50  0000 C CNN
-F 2 "" H 4988 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4988 750 50  0001 C CNN
 F 3 "~" H 4950 900 50  0001 C CNN
 	1    4950 900 
 	0    1    1    0   
@@ -132,16 +99,14 @@ U 1 1 6064ACA4
 P 6950 900
 AR Path="/5E8C77AE/6064ACA4" Ref="C?"  Part="1" 
 AR Path="/5E8C755A/6064ACA4" Ref="C?"  Part="1" 
-AR Path="/5E8C79BD/6064ACA4" Ref="C?"  Part="1" 
-F 0 "C?" V 6698 900 50  0000 C CNN
+AR Path="/5E8C79BD/6064ACA4" Ref="C44"  Part="1" 
+F 0 "C44" V 6698 900 50  0000 C CNN
 F 1 "1n" V 6789 900 50  0000 C CNN
-F 2 "" H 6988 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6988 750 50  0001 C CNN
 F 3 "~" H 6950 900 50  0001 C CNN
 	1    6950 900 
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5100 900  5100 1100
 Wire Wire Line
 	4800 900  4800 1600
 Connection ~ 4800 1600
@@ -429,8 +394,8 @@ L dk_Logic-Gates-and-Inverters:SN74LVC1G04DBVR U?
 U 1 1 5EE64350
 P 2000 2100
 AR Path="/5E8C755A/5EE64350" Ref="U?"  Part="1" 
-AR Path="/5E8C79BD/5EE64350" Ref="U?"  Part="1" 
-F 0 "U?" V 1897 2344 60  0000 L CNN
+AR Path="/5E8C79BD/5EE64350" Ref="U9"  Part="1" 
+F 0 "U9" V 1897 2344 60  0000 L CNN
 F 1 "SN74LVC1G04DBVR" V 2003 2344 60  0000 L CNN
 F 2 "digikey-footprints:SOT-753" H 2200 2300 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lvc1g04" H 2200 2400 60  0001 L CNN
@@ -462,8 +427,6 @@ Wire Wire Line
 	2550 2100 2550 1100
 Connection ~ 2550 1100
 Wire Wire Line
-	2550 1100 5100 1100
-Wire Wire Line
 	4150 1600 4150 2750
 Wire Wire Line
 	4950 1600 6800 1600
@@ -479,13 +442,50 @@ Wire Wire Line
 	6150 1200 6150 2450
 Wire Wire Line
 	6150 2450 6400 2450
+Connection ~ 3300 2450
+Wire Wire Line
+	3300 2450 4400 2450
+Wire Wire Line
+	2550 1100 5100 1100
+Wire Wire Line
+	5100 2100 5100 1100
+Connection ~ 5100 1100
+Wire Wire Line
+	5100 1100 7100 1100
+Wire Wire Line
+	5100 1100 5100 900 
+$Comp
+L 74xx_IEEE:74LS597 U?
+U 1 1 5F0DAE1E
+P 4950 2900
+AR Path="/5E8C77AE/5F0DAE1E" Ref="U?"  Part="1" 
+AR Path="/5E8C755A/5F0DAE1E" Ref="U?"  Part="1" 
+AR Path="/5E8C79BD/5F0DAE1E" Ref="U10"  Part="1" 
+F 0 "U10" H 4950 3916 50  0000 C CNN
+F 1 "74LS597" H 4950 3825 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 4950 2900 50  0001 C CNN
+F 3 "" H 4950 2900 50  0001 C CNN
+	1    4950 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx_IEEE:74LS597 U?
+U 1 1 5F0E5779
+P 6950 2900
+AR Path="/5E8C77AE/5F0E5779" Ref="U?"  Part="1" 
+AR Path="/5E8C755A/5F0E5779" Ref="U?"  Part="1" 
+AR Path="/5E8C79BD/5F0E5779" Ref="U11"  Part="1" 
+F 0 "U11" H 6950 3916 50  0000 C CNN
+F 1 "74LS597" H 6950 3825 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" H 6950 2900 50  0001 C CNN
+F 3 "" H 6950 2900 50  0001 C CNN
+	1    6950 2900
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	4200 2950 4200 4400
 Wire Bus Line
 	6100 2950 6100 4400
 Wire Bus Line
 	6250 4400 6250 6300
-Connection ~ 3300 2450
-Wire Wire Line
-	3300 2450 4400 2450
 $EndSCHEMATC
