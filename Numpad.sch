@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 13 18
+Sheet 18 18
 Title ""
 Date ""
 Rev ""
@@ -319,11 +319,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 1200 1400 5700
 Wire Wire Line
-	1400 5700 2700 5700
-Wire Wire Line
 	1500 1100 1500 4700
-Wire Wire Line
-	1300 5800 2700 5800
 Wire Wire Line
 	9350 1300 9350 3550
 Wire Wire Line
@@ -342,13 +338,6 @@ Wire Wire Line
 	8500 3550 9350 3550
 Wire Wire Line
 	1300 1600 1300 2050
-Wire Wire Line
-	4650 4800 1300 4800
-Connection ~ 1300 4800
-Wire Wire Line
-	1300 4800 1300 5800
-Wire Wire Line
-	1500 4700 4650 4700
 Wire Wire Line
 	7200 2850 7400 2850
 Wire Wire Line
@@ -395,177 +384,9 @@ Wire Wire Line
 	3150 3550 3400 3550
 Entry Wire Line
 	7100 3350 7200 3250
-$Sheet
-S 4650 4600 1700 2600
-U 5E9CBBD2
-F0 "Numpad Switches" 50
-F1 "Numpad Switches.sch" 50
-F2 "3.3V" I L 4650 4700 50 
-F3 "GND" I L 4650 4800 50 
-F4 "NUML" O R 6350 4700 50 
-F5 "NUMS" O R 6350 4800 50 
-F6 "NUM*" O R 6350 4900 50 
-F7 "NUM-" O R 6350 5000 50 
-F8 "NUM7" O R 6350 5100 50 
-F9 "NUM8" O R 6350 5200 50 
-F10 "NUM9" O R 6350 5300 50 
-F11 "NUM+" O R 6350 5400 50 
-F12 "NUM4" O R 6350 5500 50 
-F13 "NUM5" O R 6350 5600 50 
-F14 "NUM6" O R 6350 5700 50 
-F15 "NUM1" O R 6350 5800 50 
-F16 "NUM2" O R 6350 5900 50 
-F17 "NUM3" O R 6350 6000 50 
-F18 "NUME" O R 6350 6100 50 
-F19 "NUM0" O R 6350 6200 50 
-F20 "NUM." O R 6350 6300 50 
-F21 "EXT1" O R 6350 6400 50 
-F22 "EXT2" O R 6350 6500 50 
-F23 "EXT3" O R 6350 6600 50 
-F24 "EXT4" O R 6350 6700 50 
-$EndSheet
-Wire Wire Line
-	6350 4700 6700 4700
-Wire Wire Line
-	6350 4800 6700 4800
-Wire Wire Line
-	6350 4900 6700 4900
-Wire Wire Line
-	6350 5000 6700 5000
-Wire Wire Line
-	6350 5100 6700 5100
-Wire Wire Line
-	6350 5200 6700 5200
-Wire Wire Line
-	6350 5300 6700 5300
-Wire Wire Line
-	6350 5400 6700 5400
-Wire Wire Line
-	6350 5500 6700 5500
-Wire Wire Line
-	6350 5600 6700 5600
-Wire Wire Line
-	6350 5700 6700 5700
-Wire Wire Line
-	6350 5800 6700 5800
-Wire Wire Line
-	6350 5900 6700 5900
-Wire Wire Line
-	6350 6000 6700 6000
-Wire Wire Line
-	6350 6100 6700 6100
-Wire Wire Line
-	6350 6200 6700 6200
-Wire Wire Line
-	6350 6300 6700 6300
-Wire Wire Line
-	6350 6400 6700 6400
-Wire Wire Line
-	6350 6500 6700 6500
-Wire Wire Line
-	6350 6600 6700 6600
-Wire Wire Line
-	6350 6700 6700 6700
-Text Label 6700 4700 2    50   ~ 0
-NUML
-Text Label 6700 4800 2    50   ~ 0
-NUMS
-Text Label 6700 4900 2    50   ~ 0
-NUM*
-Text Label 6700 5000 2    50   ~ 0
-NUM-
-Text Label 6700 5100 2    50   ~ 0
-NUM7
-Text Label 6700 5200 2    50   ~ 0
-NUM8
-Text Label 6700 5300 2    50   ~ 0
-NUM9
-Text Label 6700 5400 2    50   ~ 0
-NUM+
-Text Label 6700 5500 2    50   ~ 0
-NUM4
-Text Label 6700 5600 2    50   ~ 0
-NUM5
-Text Label 6700 5700 2    50   ~ 0
-NUM6
-Text Label 6700 5800 2    50   ~ 0
-NUM1
-Text Label 6700 5900 2    50   ~ 0
-NUM2
-Text Label 6700 6000 2    50   ~ 0
-NUM3
-Text Label 6700 6100 2    50   ~ 0
-NUME
-Text Label 6700 6200 2    50   ~ 0
-NUM0
-Text Label 6700 6300 2    50   ~ 0
-NUM.
-Text Label 6700 6400 2    50   ~ 0
-EXT1
-Text Label 6700 6500 2    50   ~ 0
-EXT2
-Text Label 6700 6600 2    50   ~ 0
-EXT3
-Text Label 6700 6700 2    50   ~ 0
-EXT4
-Entry Wire Line
-	6700 4700 6800 4600
-Entry Wire Line
-	6700 4800 6800 4700
-Entry Wire Line
-	6700 4900 6800 4800
-Entry Wire Line
-	6700 5000 6800 4900
-Entry Wire Line
-	6700 5100 6800 5000
-Entry Wire Line
-	6700 5200 6800 5100
-Entry Wire Line
-	6700 5300 6800 5200
-Entry Wire Line
-	6700 5400 6800 5300
-Entry Wire Line
-	6700 5500 6800 5400
-Entry Wire Line
-	6700 5600 6800 5500
-Entry Wire Line
-	6700 5700 6800 5600
-Entry Wire Line
-	6700 5800 6800 5700
-Entry Wire Line
-	6700 5900 6800 5800
-Entry Wire Line
-	6700 6000 6800 5900
-Entry Wire Line
-	6700 6100 6800 6000
-Entry Wire Line
-	6700 6200 6800 6100
-Entry Wire Line
-	6700 6300 6800 6200
-Entry Wire Line
-	6700 6400 6800 6300
-Entry Wire Line
-	6700 6500 6800 6400
-Entry Wire Line
-	6700 6600 6800 6500
-Entry Wire Line
-	6700 6700 6800 6600
-Wire Bus Line
-	6800 4400 5100 4400
 Connection ~ 5100 4400
 Wire Bus Line
 	5100 4400 3050 4400
-Wire Bus Line
-	6800 4400 7100 4400
-Connection ~ 6800 4400
-$Sheet
-S 2700 5600 850  800 
-U 5EFD9CB6
-F0 "Numpad LEDs" 50
-F1 "Numpad LEDs.sch" 50
-F2 "DIMMER" I L 2700 5700 50 
-F3 "GND" I L 2700 5800 50 
-$EndSheet
 $Comp
 L dk_Logic-Gates-and-Inverters:SN74LVC1G04DBVR U?
 U 1 1 5EDA695B
@@ -591,8 +412,6 @@ $EndComp
 Wire Wire Line
 	1600 2050 1300 2050
 Connection ~ 1300 2050
-Wire Wire Line
-	1300 2050 1300 4800
 Wire Wire Line
 	1800 1850 1800 1500
 Connection ~ 1800 1500
@@ -632,12 +451,14 @@ Connection ~ 5150 1200
 NoConn ~ 7400 3350
 NoConn ~ 7400 3450
 NoConn ~ 7400 3550
+Wire Wire Line
+	1300 2050 1300 5800
+Wire Bus Line
+	5100 4400 7100 4400
 Wire Bus Line
 	7100 2950 7100 4400
 Wire Bus Line
 	5100 2950 5100 4400
 Wire Bus Line
 	3050 2950 3050 4400
-Wire Bus Line
-	6800 4400 6800 6600
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 16 18
+Sheet 17 18
 Title ""
 Date ""
 Rev ""
@@ -25,8 +25,6 @@ Text HLabel 1000 1450 0    50   Input ~ 0
 SHIFT_RCLK
 Text HLabel 1000 1550 0    50   Input ~ 0
 GND
-Text HLabel 10600 1150 2    50   Output ~ 0
-SHIFT_0_DATA
 Text HLabel 10600 1250 2    50   Output ~ 0
 SHIFT_1_DATA
 $Comp
@@ -226,62 +224,6 @@ Wire Wire Line
 	1000 1550 1300 1550
 Wire Wire Line
 	9350 1250 10600 1250
-Entry Wire Line
-	6150 4600 6250 4700
-Text Label 6150 4600 2    50   ~ 0
-ESC
-Text Label 6150 4700 2    50   ~ 0
-F1
-Text Label 6150 4800 2    50   ~ 0
-F2
-Text Label 6150 4900 2    50   ~ 0
-F3
-Text Label 6150 5000 2    50   ~ 0
-`
-Text Label 6150 5100 2    50   ~ 0
-1
-Text Label 6150 5200 2    50   ~ 0
-2
-Text Label 6150 5300 2    50   ~ 0
-3
-Text Label 6150 5400 2    50   ~ 0
-TAB
-Text Label 6150 5500 2    50   ~ 0
-Q
-Text Label 6150 5600 2    50   ~ 0
-W
-Text Label 6150 5700 2    50   ~ 0
-CAPL
-Text Label 6150 5800 2    50   ~ 0
-A
-Text Label 6150 5900 2    50   ~ 0
-S
-Text Label 6150 6000 2    50   ~ 0
-LSHFT
-Text Label 6150 6100 2    50   ~ 0
-Z
-Text Label 6150 6200 2    50   ~ 0
-X
-Text Label 6150 6300 2    50   ~ 0
-LCTRL
-Text Label 6150 6400 2    50   ~ 0
-LWIND
-Text Label 6150 6500 2    50   ~ 0
-LALT
-Entry Wire Line
-	6150 4700 6250 4800
-Entry Wire Line
-	6150 4800 6250 4900
-Entry Wire Line
-	6150 4900 6250 5000
-Entry Wire Line
-	6150 5000 6250 5100
-Entry Wire Line
-	6150 5100 6250 5200
-Entry Wire Line
-	6150 5200 6250 5300
-Entry Wire Line
-	6150 5300 6250 5400
 Wire Wire Line
 	3400 2800 3300 2800
 Wire Wire Line
@@ -339,30 +281,6 @@ LWIND
 Text Label 7400 3100 2    50   ~ 0
 LALT
 Entry Wire Line
-	6150 5400 6250 5500
-Entry Wire Line
-	6150 5500 6250 5600
-Entry Wire Line
-	6150 5600 6250 5700
-Entry Wire Line
-	6150 5700 6250 5800
-Entry Wire Line
-	6150 5800 6250 5900
-Entry Wire Line
-	6150 5900 6250 6000
-Entry Wire Line
-	6150 6000 6250 6100
-Entry Wire Line
-	6150 6100 6250 6200
-Entry Wire Line
-	6150 6200 6250 6300
-Entry Wire Line
-	6150 6300 6250 6400
-Entry Wire Line
-	6150 6400 6250 6500
-Entry Wire Line
-	6150 6500 6250 6600
-Entry Wire Line
 	3200 2900 3300 2800
 Entry Wire Line
 	3200 3000 3300 2900
@@ -402,20 +320,12 @@ Entry Wire Line
 	7100 3100 7200 3000
 Entry Wire Line
 	7100 3200 7200 3100
-Text HLabel 10100 1150 0    50   Input ~ 0
-SHIFT_0_DATA_IN
-Wire Wire Line
-	10100 1150 10600 1150
 Wire Wire Line
 	1000 1150 1400 1150
 Wire Wire Line
 	1400 1150 1400 5650
 Wire Wire Line
-	1400 5650 2700 5650
-Wire Wire Line
 	1500 1050 1500 4650
-Wire Wire Line
-	1300 5750 2700 5750
 Wire Wire Line
 	9350 1250 9350 3500
 Connection ~ 1500 1050
@@ -428,89 +338,6 @@ Wire Wire Line
 Connection ~ 1300 1550
 Wire Wire Line
 	8500 3500 9350 3500
-$Sheet
-S 4650 4550 1250 2050
-U 5EAE0F3A
-F0 "Left Main Switches" 50
-F1 "Left Main Switches.sch" 50
-F2 "3.3V" I L 4650 4650 50 
-F3 "GND" I L 4650 4750 50 
-F4 "ESC" O R 5900 4600 50 
-F5 "F1" O R 5900 4700 50 
-F6 "F2" O R 5900 4800 50 
-F7 "F3" O R 5900 4900 50 
-F8 "`" O R 5900 5000 50 
-F9 "1" O R 5900 5100 50 
-F10 "2" O R 5900 5200 50 
-F11 "3" O R 5900 5300 50 
-F12 "TAB" O R 5900 5400 50 
-F13 "Q" O R 5900 5500 50 
-F14 "W" O R 5900 5600 50 
-F15 "CAPL" O R 5900 5700 50 
-F16 "A" O R 5900 5800 50 
-F17 "S" O R 5900 5900 50 
-F18 "Z" O R 5900 6100 50 
-F19 "X" O R 5900 6200 50 
-F20 "LALT" O R 5900 6500 50 
-F21 "LSHFT" O R 5900 6000 50 
-F22 "LCTRL" O R 5900 6300 50 
-F23 "LWIND" O R 5900 6400 50 
-$EndSheet
-Wire Wire Line
-	4650 4750 1300 4750
-Connection ~ 1300 4750
-Wire Wire Line
-	1300 4750 1300 5750
-$Sheet
-S 2700 5550 900  900 
-U 5FA6DC21
-F0 "Left Main LEDs" 50
-F1 "Left Main LEDs.sch" 50
-F2 "DIMMER" I L 2700 5650 50 
-F3 "GND" I L 2700 5750 50 
-$EndSheet
-Wire Wire Line
-	5900 4600 6150 4600
-Wire Wire Line
-	5900 4700 6150 4700
-Wire Wire Line
-	5900 4800 6150 4800
-Wire Wire Line
-	5900 4900 6150 4900
-Wire Wire Line
-	5900 5000 6150 5000
-Wire Wire Line
-	5900 5100 6150 5100
-Wire Wire Line
-	5900 5200 6150 5200
-Wire Wire Line
-	5900 5300 6150 5300
-Wire Wire Line
-	5900 5400 6150 5400
-Wire Wire Line
-	5900 5500 6150 5500
-Wire Wire Line
-	5900 5600 6150 5600
-Wire Wire Line
-	5900 5700 6150 5700
-Wire Wire Line
-	5900 5800 6150 5800
-Wire Wire Line
-	5900 5900 6150 5900
-Wire Wire Line
-	5900 6000 6150 6000
-Wire Wire Line
-	5900 6100 6150 6100
-Wire Wire Line
-	5900 6200 6150 6200
-Wire Wire Line
-	5900 6300 6150 6300
-Wire Wire Line
-	5900 6400 6150 6400
-Wire Wire Line
-	5900 6500 6150 6500
-Wire Wire Line
-	1500 4650 4650 4650
 Wire Wire Line
 	7200 2800 7400 2800
 Wire Wire Line
@@ -535,14 +362,9 @@ Wire Wire Line
 	5200 3400 5400 3400
 Wire Wire Line
 	5200 3500 5400 3500
-Wire Bus Line
-	6250 4350 5100 4350
 Connection ~ 5100 4350
 Wire Bus Line
 	5100 4350 3200 4350
-Wire Bus Line
-	6250 4350 7100 4350
-Connection ~ 6250 4350
 Wire Wire Line
 	3150 1550 3150 2700
 Wire Wire Line
@@ -578,8 +400,6 @@ Wire Wire Line
 Wire Wire Line
 	1500 1050 2250 1050
 Connection ~ 1300 2000
-Wire Wire Line
-	1300 2000 1300 4750
 Wire Wire Line
 	1850 1800 1850 1450
 Connection ~ 1850 1450
@@ -618,12 +438,14 @@ NoConn ~ 7400 3200
 NoConn ~ 7400 3300
 NoConn ~ 7400 3400
 NoConn ~ 7400 3500
+Wire Wire Line
+	1300 2000 1300 5750
+Wire Bus Line
+	5100 4350 7100 4350
 Wire Bus Line
 	7100 2900 7100 4350
 Wire Bus Line
 	5100 2900 5100 4350
 Wire Bus Line
 	3200 2900 3200 4350
-Wire Bus Line
-	6250 4350 6250 6600
 $EndSCHEMATC

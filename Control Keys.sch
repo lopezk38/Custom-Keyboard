@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 18
+Sheet 13 18
 Title ""
 Date ""
 Rev ""
@@ -125,54 +125,6 @@ Wire Wire Line
 	1000 1600 1300 1600
 Wire Wire Line
 	9350 1300 10600 1300
-Entry Wire Line
-	6150 4700 6250 4800
-Text Label 6150 4700 2    50   ~ 0
-PRNT
-Text Label 6150 4800 2    50   ~ 0
-SCRL
-Text Label 6150 4900 2    50   ~ 0
-PAUS
-Text Label 6150 5000 2    50   ~ 0
-INS
-Text Label 6150 5100 2    50   ~ 0
-HOME
-Text Label 6150 5200 2    50   ~ 0
-PGUP
-Text Label 6150 5300 2    50   ~ 0
-DEL
-Text Label 6150 5400 2    50   ~ 0
-END
-Text Label 6150 5500 2    50   ~ 0
-PGDN
-Text Label 6150 5600 2    50   ~ 0
-UP
-Text Label 6150 5700 2    50   ~ 0
-LT
-Text Label 6150 5800 2    50   ~ 0
-DN
-Text Label 6150 5900 2    50   ~ 0
-RT
-Text Label 6150 6000 2    50   ~ 0
-EXT8
-Text Label 6150 6100 2    50   ~ 0
-EXT9
-Text Label 6150 6200 2    50   ~ 0
-EXT10
-Entry Wire Line
-	6150 4800 6250 4900
-Entry Wire Line
-	6150 4900 6250 5000
-Entry Wire Line
-	6150 5000 6250 5100
-Entry Wire Line
-	6150 5100 6250 5200
-Entry Wire Line
-	6150 5200 6250 5300
-Entry Wire Line
-	6150 5300 6250 5400
-Entry Wire Line
-	6150 5400 6250 5500
 Wire Wire Line
 	4400 2850 4300 2850
 Wire Wire Line
@@ -222,22 +174,6 @@ EXT9
 Text Label 6400 3550 2    50   ~ 0
 EXT10
 Entry Wire Line
-	6150 5500 6250 5600
-Entry Wire Line
-	6150 5600 6250 5700
-Entry Wire Line
-	6150 5700 6250 5800
-Entry Wire Line
-	6150 5800 6250 5900
-Entry Wire Line
-	6150 5900 6250 6000
-Entry Wire Line
-	6150 6000 6250 6100
-Entry Wire Line
-	6150 6100 6250 6200
-Entry Wire Line
-	6150 6200 6250 6300
-Entry Wire Line
 	4200 2950 4300 2850
 Entry Wire Line
 	4200 3050 4300 2950
@@ -274,54 +210,11 @@ Wire Wire Line
 Wire Wire Line
 	1400 1200 1400 5700
 Wire Wire Line
-	1400 5700 2700 5700
-Wire Wire Line
 	1500 1100 1500 4700
-Wire Wire Line
-	1300 5800 2700 5800
 Wire Wire Line
 	9350 1300 9350 3550
 Wire Wire Line
 	1300 1600 1300 2000
-Wire Wire Line
-	4650 4800 1300 4800
-Connection ~ 1300 4800
-Wire Wire Line
-	1300 4800 1300 5800
-Wire Wire Line
-	5900 4700 6150 4700
-Wire Wire Line
-	5900 4800 6150 4800
-Wire Wire Line
-	5900 4900 6150 4900
-Wire Wire Line
-	5900 5000 6150 5000
-Wire Wire Line
-	5900 5100 6150 5100
-Wire Wire Line
-	5900 5200 6150 5200
-Wire Wire Line
-	5900 5300 6150 5300
-Wire Wire Line
-	5900 5400 6150 5400
-Wire Wire Line
-	5900 5500 6150 5500
-Wire Wire Line
-	5900 5600 6150 5600
-Wire Wire Line
-	5900 5700 6150 5700
-Wire Wire Line
-	5900 5800 6150 5800
-Wire Wire Line
-	5900 5900 6150 5900
-Wire Wire Line
-	5900 6000 6150 6000
-Wire Wire Line
-	5900 6100 6150 6100
-Wire Wire Line
-	5900 6200 6150 6200
-Wire Wire Line
-	1500 4700 4650 4700
 Wire Wire Line
 	6200 2850 6400 2850
 Wire Wire Line
@@ -357,38 +250,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 1600 4150 1600
 Connection ~ 1300 1600
-$Sheet
-S 4650 4600 1250 1700
-U 606B9FCC
-F0 "Control Key Switches" 50
-F1 "Control Key Switches.sch" 50
-F2 "3.3V" I L 4650 4700 50 
-F3 "GND" I L 4650 4800 50 
-F4 "PRNT" O R 5900 4700 50 
-F5 "SCRL" O R 5900 4800 50 
-F6 "PAUS" O R 5900 4900 50 
-F7 "INS" O R 5900 5000 50 
-F8 "HOME" O R 5900 5100 50 
-F9 "PGUP" O R 5900 5200 50 
-F10 "DEL" O R 5900 5300 50 
-F11 "END" O R 5900 5400 50 
-F12 "PGDN" O R 5900 5500 50 
-F13 "EXT8" O R 5900 6000 50 
-F14 "EXT9" O R 5900 6100 50 
-F15 "EXT10" O R 5900 6200 50 
-F16 "UP" O R 5900 5600 50 
-F17 "LT" O R 5900 5700 50 
-F18 "DN" O R 5900 5800 50 
-F19 "RT" O R 5900 5900 50 
-$EndSheet
-$Sheet
-S 2700 5600 1000 950 
-U 60A725E0
-F0 "Control Key LEDs" 50
-F1 "Control Key LEDs.sch" 50
-F2 "DIMMER" I L 2700 5700 50 
-F3 "GND" I L 2700 5800 50 
-$EndSheet
 $Comp
 L dk_Logic-Gates-and-Inverters:SN74LVC1G04DBVR U?
 U 1 1 5EE64350
@@ -419,8 +280,6 @@ Wire Wire Line
 Wire Wire Line
 	1800 2000 1300 2000
 Connection ~ 1300 2000
-Wire Wire Line
-	1300 2000 1300 4800
 Wire Wire Line
 	2200 2100 2550 2100
 Wire Wire Line
@@ -482,10 +341,10 @@ F 3 "" H 6950 2900 50  0001 C CNN
 	1    6950 2900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1300 2000 1300 5800
 Wire Bus Line
 	4200 2950 4200 4400
 Wire Bus Line
 	6100 2950 6100 4400
-Wire Bus Line
-	6250 4400 6250 6300
 $EndSCHEMATC
