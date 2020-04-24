@@ -252,17 +252,6 @@ $EndComp
 Wire Wire Line
 	9200 3350 9200 2600
 $Comp
-L power:+3.3V #PWR06
-U 1 1 5E8D865E
-P 9200 2600
-F 0 "#PWR06" H 9200 2450 50  0001 C CNN
-F 1 "+3.3V" H 9215 2773 50  0000 C CNN
-F 2 "" H 9200 2600 50  0001 C CNN
-F 3 "" H 9200 2600 50  0001 C CNN
-	1    9200 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C6
 U 1 1 5E8DC6DC
 P 9200 4050
@@ -672,7 +661,7 @@ Wire Wire Line
 Text HLabel 10250 1400 2    50   Output ~ 0
 DIMMER
 Text HLabel 10250 1300 2    50   Output ~ 0
-3.3V
+3.3V_LOGIC
 Text HLabel 10250 1500 2    50   Output ~ 0
 GND
 $Comp
@@ -789,4 +778,102 @@ NoConn ~ 5550 4400
 NoConn ~ 5550 4300
 NoConn ~ 5550 4200
 NoConn ~ 5550 4100
+$Comp
+L Device:C C23
+U 1 1 5EAF7007
+P 4550 6150
+F 0 "C23" H 4665 6196 50  0000 L CNN
+F 1 "1u" H 4665 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4588 6000 50  0001 C CNN
+F 3 "~" H 4550 6150 50  0001 C CNN
+	1    4550 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EAF700D
+P 4550 6300
+F 0 "#PWR0101" H 4550 6050 50  0001 C CNN
+F 1 "GND" H 4555 6127 50  0000 C CNN
+F 2 "" H 4550 6300 50  0001 C CNN
+F 3 "" H 4550 6300 50  0001 C CNN
+	1    4550 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5700 4750 5700
+Wire Wire Line
+	5150 6100 5150 6300
+$Comp
+L power:GND #PWR0102
+U 1 1 5EAF7017
+P 5150 6300
+F 0 "#PWR0102" H 5150 6050 50  0001 C CNN
+F 1 "GND" H 5155 6127 50  0000 C CNN
+F 2 "" H 5150 6300 50  0001 C CNN
+F 3 "" H 5150 6300 50  0001 C CNN
+	1    5150 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 5700 5750 5700
+Wire Wire Line
+	5750 5500 5750 5700
+Connection ~ 5750 5700
+$Comp
+L Device:C C135
+U 1 1 5EAF7026
+P 5750 6150
+F 0 "C135" H 5865 6196 50  0000 L CNN
+F 1 "1u" H 5865 6105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5788 6000 50  0001 C CNN
+F 3 "~" H 5750 6150 50  0001 C CNN
+	1    5750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EAF702C
+P 5750 6300
+F 0 "#PWR0103" H 5750 6050 50  0001 C CNN
+F 1 "GND" H 5755 6127 50  0000 C CNN
+F 2 "" H 5750 6300 50  0001 C CNN
+F 3 "" H 5750 6300 50  0001 C CNN
+	1    5750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Library:AP2138N-3.3TRG1 U19
+U 1 1 5EAF7032
+P 5150 5800
+F 0 "U19" H 5150 6167 50  0000 C CNN
+F 1 "AP2138N-3.3TRG1" H 5150 6076 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 6100 5500 50  0001 C CNN
+F 3 "https://www.diodes.com/assets/Datasheets/AP2138-9.pdf" H 5150 6150 50  0001 C CNN
+	1    5150 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5700 4550 6000
+Wire Wire Line
+	5750 5700 5750 6000
+Wire Wire Line
+	2900 5700 2900 5100
+Wire Wire Line
+	2900 5100 4550 5100
+Wire Wire Line
+	4550 5100 4550 5700
+Connection ~ 4550 5700
+Text HLabel 10250 1200 2    50   Output ~ 0
+3.3V_SWITCHES
+Wire Wire Line
+	10250 1200 9650 1200
+Wire Wire Line
+	5750 5500 7000 5500
+Text Label 7000 5500 2    50   ~ 0
++3.3V_SW
+Text Label 9650 1200 0    50   ~ 0
++3.3V_SW
+Text Label 9200 2600 3    50   ~ 0
++3.3V_SW
 $EndSCHEMATC

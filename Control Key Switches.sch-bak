@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 8 14
+Sheet 11 14
 Title ""
 Date ""
 Rev ""
@@ -1980,26 +1980,6 @@ F 3 "~" H 9350 1800 50  0001 C CNN
 	1    9350 1600
 	1    0    0    -1  
 $EndComp
-Wire Bus Line
-	8650 2200 11950 2200
-Wire Bus Line
-	7150 2200 11950 2200
-Wire Bus Line
-	7150 3700 11950 3700
-Wire Bus Line
-	8650 5200 11950 5200
-Wire Bus Line
-	7200 5200 11950 5200
-Wire Bus Line
-	8650 6700 11950 6700
-Wire Bus Line
-	7200 6700 11950 6700
-Wire Bus Line
-	15000 1900 15000 2200
-Wire Bus Line
-	15000 2200 15000 2700
-Wire Bus Line
-	15000 1200 15000 2200
 $Comp
 L Switch:SW_Push SW?
 U 1 1 5E9E322D
@@ -2031,8 +2011,6 @@ Text HLabel 15600 1400 2    50   Output ~ 0
 INS
 Text HLabel 15600 2000 2    50   Output ~ 0
 EXT8
-Wire Bus Line
-	7200 9700 11950 9700
 $Comp
 L Switch:SW_Push SW?
 U 1 1 60744CDE
@@ -2051,4 +2029,26 @@ F 3 "~" H 9350 6300 50  0001 C CNN
 	1    9350 6100
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	8650 2200 11950 2200
+Wire Bus Line
+	7150 2200 11950 2200
+Wire Bus Line
+	7150 3700 11950 3700
+Wire Bus Line
+	8650 5200 11950 5200
+Wire Bus Line
+	7200 5200 11950 5200
+Wire Bus Line
+	8650 6700 11950 6700
+Wire Bus Line
+	7200 6700 11950 6700
+Wire Bus Line
+	15000 1900 15000 2200
+Wire Bus Line
+	7200 9700 11950 9700
+Wire Bus Line
+	15000 2200 15000 2700
+Wire Bus Line
+	15000 1200 15000 2200
 $EndSCHEMATC

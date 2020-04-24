@@ -2840,22 +2840,6 @@ Wire Bus Line
 Connection ~ 13500 7100
 Wire Bus Line
 	13500 7100 13500 5600
-Wire Bus Line
-	5750 8600 10250 8600
-Wire Bus Line
-	10250 8600 13500 8600
-Wire Bus Line
-	5750 2600 13500 2600
-Wire Bus Line
-	5750 4100 13500 4100
-Wire Bus Line
-	5750 5600 13500 5600
-Wire Bus Line
-	5750 7100 13500 7100
-Wire Bus Line
-	15250 2600 15250 3850
-Wire Bus Line
-	15250 950  15250 2600
 Text Label 15800 850  2    50   ~ 0
 F4
 Text Label 15800 950  2    50   ~ 0
@@ -2929,4 +2913,20 @@ F 3 "~" H 11500 5250 50  0001 C CNN
 	1    11500 5250
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	5750 8600 10250 8600
+Wire Bus Line
+	10250 8600 13500 8600
+Wire Bus Line
+	5750 2600 13500 2600
+Wire Bus Line
+	5750 4100 13500 4100
+Wire Bus Line
+	5750 5600 13500 5600
+Wire Bus Line
+	5750 7100 13500 7100
+Wire Bus Line
+	15250 2600 15250 3850
+Wire Bus Line
+	15250 950  15250 2600
 $EndSCHEMATC

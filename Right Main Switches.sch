@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
-Sheet 11 14
+Sheet 13 14
 Title ""
 Date ""
 Rev ""
@@ -1505,10 +1505,6 @@ Wire Wire Line
 	8400 8200 8650 8200
 Connection ~ 8400 8200
 Wire Wire Line
-	3900 1200 3900 2600
-Wire Wire Line
-	3800 1100 3800 4100
-Wire Wire Line
 	3900 1200 4400 1200
 $Comp
 L Switch:SW_Push SW?
@@ -2675,8 +2671,6 @@ Connection ~ 5400 1700
 Wire Wire Line
 	5400 1700 5400 1800
 Connection ~ 4400 1200
-Wire Wire Line
-	5400 2600 3900 2600
 Text Label 5600 2200 2    50   ~ 0
 F9
 Text Label 5600 3700 2    50   ~ 0
@@ -2845,10 +2839,6 @@ Wire Wire Line
 	3800 1100 5400 1100
 Connection ~ 3800 1100
 Connection ~ 5400 1100
-Connection ~ 3900 2600
-Wire Wire Line
-	3900 2600 3900 4200
-Connection ~ 5400 2600
 Wire Bus Line
 	11900 2300 11900 3800
 Connection ~ 11900 3800
@@ -2888,22 +2878,6 @@ APP
 Text Label 15150 3500 0    50   ~ 0
 RCTRL
 Connection ~ 15050 2300
-Wire Bus Line
-	5750 8300 11900 8300
-Wire Bus Line
-	5750 9800 11900 9800
-Wire Bus Line
-	5700 6800 11900 6800
-Wire Bus Line
-	5700 5300 11900 5300
-Wire Bus Line
-	5700 3800 11900 3800
-Wire Bus Line
-	5700 2300 11900 2300
-Wire Bus Line
-	15050 1300 15050 2300
-Wire Bus Line
-	15050 2300 15050 3600
 $Comp
 L Device:C C?
 U 1 1 5F59E0C0
@@ -2923,4 +2897,36 @@ F 3 "~" H 9900 4950 50  0001 C CNN
 	1    9900 4950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3800 1100 3800 2600
+Wire Wire Line
+	3900 1200 3900 2700
+Wire Wire Line
+	5400 2600 3800 2600
+Connection ~ 5400 2600
+Connection ~ 3800 2600
+Wire Wire Line
+	3800 2600 3800 4100
+Wire Wire Line
+	4400 2700 3900 2700
+Wire Bus Line
+	5750 8300 11900 8300
+Wire Bus Line
+	5750 9800 11900 9800
+Wire Bus Line
+	5700 6800 11900 6800
+Wire Bus Line
+	5700 5300 11900 5300
+Wire Bus Line
+	5700 3800 11900 3800
+Wire Bus Line
+	5700 2300 11900 2300
+Wire Bus Line
+	15050 1300 15050 2300
+Wire Bus Line
+	15050 2300 15050 3600
+Connection ~ 4400 2700
+Connection ~ 3900 2700
+Wire Wire Line
+	3900 2700 3900 4200
 $EndSCHEMATC

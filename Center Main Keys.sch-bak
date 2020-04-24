@@ -394,65 +394,65 @@ Wire Wire Line
 	14750 14950 14600 14950
 Wire Wire Line
 	14750 15150 14600 15150
-Text Label 8700 14550 2    50   ~ 0
-NUML
-Text Label 8700 14650 2    50   ~ 0
-NUMS
-Text Label 8700 14750 2    50   ~ 0
-NUM*
-Text Label 8700 14850 2    50   ~ 0
-NUM-
 Text Label 8700 14950 2    50   ~ 0
-NUM7
-Text Label 8700 15050 2    50   ~ 0
-NUM8
-Text Label 8700 15150 2    50   ~ 0
-NUM9
-Text Label 8700 15250 2    50   ~ 0
-NUM+
-Text Label 10700 14550 2    50   ~ 0
-NUM4
+NUML
 Text Label 10700 14650 2    50   ~ 0
-NUM5
-Text Label 10700 14750 2    50   ~ 0
-NUM6
-Text Label 10700 14850 2    50   ~ 0
-NUM1
-Text Label 10700 14950 2    50   ~ 0
-NUM2
-Text Label 10700 15050 2    50   ~ 0
-NUM3
-Text Label 10700 15150 2    50   ~ 0
-NUME
+NUMS
 Text Label 10700 15250 2    50   ~ 0
-NUM0
-Text Label 12700 14550 2    50   ~ 0
-NUM.
-Text Label 12700 14650 2    50   ~ 0
-EXT1
-Text Label 12700 14750 2    50   ~ 0
-EXT2
+NUM*
 Text Label 12700 14850 2    50   ~ 0
+NUM-
+Text Label 8700 14850 2    50   ~ 0
+NUM7
+Text Label 10700 14550 2    50   ~ 0
+NUM8
+Text Label 10700 15150 2    50   ~ 0
+NUM9
+Text Label 12700 14750 2    50   ~ 0
+NUM+
+Text Label 8700 14750 2    50   ~ 0
+NUM4
+Text Label 8700 15250 2    50   ~ 0
+NUM5
+Text Label 10700 15050 2    50   ~ 0
+NUM6
+Text Label 8700 14650 2    50   ~ 0
+NUM1
+Text Label 8700 15150 2    50   ~ 0
+NUM2
+Text Label 10700 14950 2    50   ~ 0
+NUM3
+Text Label 12700 14650 2    50   ~ 0
+NUME
+Text Label 8700 14550 2    50   ~ 0
+NUM0
+Text Label 10700 14850 2    50   ~ 0
+NUM.
+Text Label 8700 15050 2    50   ~ 0
+EXT1
+Text Label 10700 14750 2    50   ~ 0
+EXT2
+Text Label 12700 14550 2    50   ~ 0
 EXT3
 Text Label 12700 14950 2    50   ~ 0
 EXT4
-Text Label 12700 15050 2    50   ~ 0
+Text Label 14700 14750 2    50   ~ 0
 ESC
-Text Label 12700 15150 2    50   ~ 0
+Text Label 16750 14950 2    50   ~ 0
 F1
-Text Label 12700 15250 2    50   ~ 0
+Text Label 18750 14650 2    50   ~ 0
 F2
-Text Label 14700 14550 2    50   ~ 0
+Text Label 18750 15150 2    50   ~ 0
 F3
 Text Label 14700 14650 2    50   ~ 0
 `
-Text Label 14700 14750 2    50   ~ 0
-1
 Text Label 14700 14850 2    50   ~ 0
+1
+Text Label 16750 14850 2    50   ~ 0
 2
-Text Label 14700 14950 2    50   ~ 0
+Text Label 18750 14550 2    50   ~ 0
 3
-Text Label 14700 15050 2    50   ~ 0
+Text Label 14700 14550 2    50   ~ 0
 TAB
 Entry Wire Line
 	19400 17500 19500 17600
@@ -1058,13 +1058,10 @@ $EndSheet
 Connection ~ 6350 13300
 Wire Wire Line
 	6350 13300 6350 14000
-Connection ~ 6550 12800
 Wire Wire Line
 	6050 12900 6450 12900
 Wire Wire Line
 	6050 13300 6350 13300
-Wire Wire Line
-	6050 12800 6550 12800
 Text HLabel 6050 13300 0    50   Input ~ 0
 GND
 Text HLabel 6050 13200 0    50   Input ~ 0
@@ -1076,9 +1073,7 @@ RESET
 Text HLabel 6050 12900 0    50   Input ~ 0
 DIMMER
 Text HLabel 6050 12800 0    50   Input ~ 0
-3.3V
-Wire Wire Line
-	6550 12800 7400 12800
+3.3V_LOGIC
 Wire Wire Line
 	6050 13000 8650 13000
 Connection ~ 8650 13000
@@ -1378,65 +1373,65 @@ Wire Wire Line
 	22800 15150 22650 15150
 Wire Wire Line
 	22800 15250 22650 15250
-Text Label 16750 14550 2    50   ~ 0
+Text Label 12700 15250 2    50   ~ 0
 CAPL
-Text Label 16750 14650 2    50   ~ 0
+Text Label 14700 15050 2    50   ~ 0
 A
-Text Label 16750 14750 2    50   ~ 0
+Text Label 16750 14650 2    50   ~ 0
 S
-Text Label 16750 14850 2    50   ~ 0
+Text Label 12700 15150 2    50   ~ 0
 LSHFT
-Text Label 16750 14950 2    50   ~ 0
+Text Label 14700 15150 2    50   ~ 0
 Z
 Text Label 16750 15050 2    50   ~ 0
 X
-Text Label 16750 15150 2    50   ~ 0
+Text Label 12700 15050 2    50   ~ 0
 LCTRL
-Text Label 16750 15250 2    50   ~ 0
+Text Label 14700 15250 2    50   ~ 0
 LWIND
-Text Label 18750 14550 2    50   ~ 0
+Text Label 16750 14550 2    50   ~ 0
 LALT
-Text Label 18750 14650 2    50   ~ 0
-F4
-Text Label 18750 14750 2    50   ~ 0
-F5
-Text Label 18750 14850 2    50   ~ 0
-F6
-Text Label 18750 14950 2    50   ~ 0
-F7
-Text Label 18750 15050 2    50   ~ 0
-F8
-Text Label 18750 15150 2    50   ~ 0
-4
-Text Label 18750 15250 2    50   ~ 0
-5
-Text Label 20750 14550 2    50   ~ 0
-6
-Text Label 20750 14650 2    50   ~ 0
-7
-Text Label 20750 14750 2    50   ~ 0
-8
-Text Label 20750 14850 2    50   ~ 0
-9
-Text Label 20750 14950 2    50   ~ 0
-E
 Text Label 20750 15050 2    50   ~ 0
-R
+F4
+Text Label 22750 14750 2    50   ~ 0
+F5
+Text Label 22750 15250 2    50   ~ 0
+F6
+Text Label 24750 14950 2    50   ~ 0
+F7
+Text Label 26750 14750 2    50   ~ 0
+F8
+Text Label 18750 15050 2    50   ~ 0
+4
+Text Label 20750 14950 2    50   ~ 0
+5
 Text Label 20750 15150 2    50   ~ 0
+6
+Text Label 22750 14850 2    50   ~ 0
+7
+Text Label 24750 14550 2    50   ~ 0
+8
+Text Label 24750 15050 2    50   ~ 0
+9
+Text Label 16750 15250 2    50   ~ 0
+E
+Text Label 18750 14950 2    50   ~ 0
+R
+Text Label 20750 14850 2    50   ~ 0
 T
 Text Label 20750 15250 2    50   ~ 0
 Y
-Text Label 22750 14550 2    50   ~ 0
-U
-Text Label 22750 14650 2    50   ~ 0
-I
-Text Label 22750 14750 2    50   ~ 0
-D
-Text Label 22750 14850 2    50   ~ 0
-F
 Text Label 22750 14950 2    50   ~ 0
+U
+Text Label 24750 14650 2    50   ~ 0
+I
+Text Label 16750 15150 2    50   ~ 0
+D
+Text Label 18750 14850 2    50   ~ 0
+F
+Text Label 20750 14750 2    50   ~ 0
 G
-Text Label 22750 15050 2    50   ~ 0
+Text Label 22750 14550 2    50   ~ 0
 H
 Entry Wire Line
 	16450 14650 16550 14550
@@ -1830,67 +1825,63 @@ Wire Wire Line
 	30800 14950 30650 14950
 Wire Wire Line
 	30800 15150 30650 15150
-Wire Wire Line
-	30800 15250 30650 15250
-Text Label 24750 14550 2    50   ~ 0
+Text Label 18750 14750 2    50   ~ 0
 C
-Text Label 24750 14650 2    50   ~ 0
+Text Label 18750 15250 2    50   ~ 0
 V
-Text Label 24750 14750 2    50   ~ 0
+Text Label 20750 14650 2    50   ~ 0
 B
-Text Label 24750 14850 2    50   ~ 0
+Text Label 22750 14650 2    50   ~ 0
 N
-Text Label 24750 14950 2    50   ~ 0
+Text Label 22750 15150 2    50   ~ 0
 M
-Text Label 24750 15050 2    50   ~ 0
+Text Label 24750 14850 2    50   ~ 0
 ,
-Text Label 24750 15150 2    50   ~ 0
+Text Label 20750 14550 2    50   ~ 0
 SP
-Text Label 24750 15250 2    50   ~ 0
+Text Label 26750 14950 2    50   ~ 0
 F9
-Text Label 26750 14550 2    50   ~ 0
+Text Label 28750 14950 2    50   ~ 0
 F10
-Text Label 26750 14650 2    50   ~ 0
-F11
-Text Label 26750 14750 2    50   ~ 0
+Text Label 30800 15050 2    50   ~ 0
 F12
 Text Label 26750 14850 2    50   ~ 0
 0
-Text Label 26750 14950 2    50   ~ 0
--
 Text Label 26750 15050 2    50   ~ 0
-=
-Text Label 26750 15150 2    50   ~ 0
-BACK
-Text Label 26750 15250 2    50   ~ 0
-O
-Text Label 28750 14550 2    50   ~ 0
-P
-Text Label 28750 14650 2    50   ~ 0
-[
-Text Label 28750 14750 2    50   ~ 0
-]
-Text Label 28750 14850 2    50   ~ 0
-\
-Text Label 28750 14950 2    50   ~ 0
-L
+-
 Text Label 28750 15050 2    50   ~ 0
+=
+Text Label 30800 14950 2    50   ~ 0
+BACK
+Text Label 24750 15150 2    50   ~ 0
+O
+Text Label 26750 15150 2    50   ~ 0
+P
+Text Label 28750 14850 2    50   ~ 0
+[
+Text Label 30800 14750 2    50   ~ 0
+]
+Text Label 30800 14850 2    50   ~ 0
+\
+Text Label 24750 15250 2    50   ~ 0
+L
+Text Label 26750 15250 2    50   ~ 0
 ;
-Text Label 28750 15150 2    50   ~ 0
+Text Label 28750 14750 2    50   ~ 0
 '
-Text Label 28750 15250 2    50   ~ 0
+Text Label 30800 14650 2    50   ~ 0
 ENTER
-Text Label 30750 14550 2    50   ~ 0
+Text Label 26750 14650 2    50   ~ 0
 .
-Text Label 30750 14650 2    50   ~ 0
+Text Label 28750 14650 2    50   ~ 0
 SLSH
-Text Label 30750 14750 2    50   ~ 0
+Text Label 30800 14550 2    50   ~ 0
 RSHFT
-Text Label 30750 14850 2    50   ~ 0
+Text Label 26750 14550 2    50   ~ 0
 RALT
-Text Label 30750 14950 2    50   ~ 0
+Text Label 28750 14550 2    50   ~ 0
 RWIND
-Text Label 30750 15050 2    50   ~ 0
+Text Label 28750 15250 2    50   ~ 0
 APP
 Entry Wire Line
 	24550 14650 24650 14550
@@ -1948,8 +1939,6 @@ Entry Wire Line
 	30550 14850 30650 14750
 Entry Wire Line
 	30550 14950 30650 14850
-Entry Wire Line
-	30550 15050 30650 14950
 Entry Wire Line
 	30550 15150 30650 15050
 Wire Bus Line
@@ -2149,21 +2138,21 @@ Wire Wire Line
 	34750 15050 34650 15050
 Wire Wire Line
 	34750 15150 34650 15150
-Text Label 32750 14550 2    50   ~ 0
-SCRL
-Text Label 32750 14650 2    50   ~ 0
-PAUS
-Text Label 32750 14750 2    50   ~ 0
-INS
-Text Label 32750 14850 2    50   ~ 0
-HOME
 Text Label 32750 14950 2    50   ~ 0
-PGUP
+SCRL
+Text Label 32300 14750 2    50   ~ 0
+PAUS
+Text Label 32750 14650 2    50   ~ 0
+INS
 Text Label 32750 15050 2    50   ~ 0
+HOME
+Text Label 32350 14950 2    50   ~ 0
+PGUP
+Text Label 32750 14750 2    50   ~ 0
 DEL
 Text Label 32750 15150 2    50   ~ 0
 END
-Text Label 32750 15250 2    50   ~ 0
+Text Label 32300 15150 2    50   ~ 0
 PGDN
 Text Label 34750 14550 2    50   ~ 0
 UP
@@ -2173,9 +2162,9 @@ Text Label 34750 14750 2    50   ~ 0
 DN
 Text Label 34750 14850 2    50   ~ 0
 RT
-Text Label 34750 14950 2    50   ~ 0
+Text Label 32750 14850 2    50   ~ 0
 EXT8
-Text Label 34750 15050 2    50   ~ 0
+Text Label 32750 15250 2    50   ~ 0
 EXT9
 Text Label 34750 15150 2    50   ~ 0
 EXT10
@@ -2607,8 +2596,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 14000 6350 16850
 Wire Wire Line
-	6550 12800 6550 16750
-Wire Wire Line
 	9000 16850 6350 16850
 Wire Wire Line
 	7000 17350 6350 17350
@@ -2628,9 +2615,9 @@ Entry Wire Line
 	14500 15250 14600 15150
 Entry Wire Line
 	14500 15350 14600 15250
-Text Label 14700 15150 2    50   ~ 0
+Text Label 14700 14950 2    50   ~ 0
 Q
-Text Label 14700 15250 2    50   ~ 0
+Text Label 16750 14750 2    50   ~ 0
 W
 Wire Bus Line
 	10500 15450 12500 15450
@@ -2645,9 +2632,6 @@ Wire Wire Line
 	26500 20150 26500 16750
 Wire Wire Line
 	26500 16750 27000 16750
-Wire Wire Line
-	6550 16750 6550 20150
-Connection ~ 6550 16750
 Wire Wire Line
 	6350 17350 6350 20350
 Connection ~ 6350 17350
@@ -2794,17 +2778,13 @@ Entry Wire Line
 	22550 15250 22650 15150
 Entry Wire Line
 	22550 15350 22650 15250
-Text Label 22750 15150 2    50   ~ 0
+Text Label 22750 15050 2    50   ~ 0
 J
-Text Label 22750 15250 2    50   ~ 0
+Text Label 24750 14750 2    50   ~ 0
 K
-Entry Wire Line
-	30550 15250 30650 15150
-Entry Wire Line
-	30550 15350 30650 15250
-Text Label 30750 15150 2    50   ~ 0
+Text Label 30800 15150 2    50   ~ 0
 RCTRL
-Text Label 30750 15250 2    50   ~ 0
+Text Label 32750 14550 2    50   ~ 0
 PRNT
 Entry Wire Line
 	34550 15250 34650 15150
@@ -2813,10 +2793,26 @@ Wire Wire Line
 Text HLabel 36900 12900 2    50   Output ~ 0
 SHIFT_DATA
 NoConn ~ 34750 15250
+Wire Wire Line
+	6050 12800 7400 12800
+Text HLabel 6050 12700 0    50   Input ~ 0
+3.3V_SWITCHES
+Wire Wire Line
+	6550 12700 6550 16750
+Connection ~ 6550 16750
+Wire Wire Line
+	6550 16750 6550 20150
+Wire Wire Line
+	6050 12700 6550 12700
+Entry Wire Line
+	30550 15050 30650 14950
+Text Label 28750 15150 2    50   ~ 0
+F11
+Entry Wire Line
+	30550 15250 30650 15150
+NoConn ~ 30800 15250
 Wire Bus Line
 	34550 14650 34550 15450
-Wire Bus Line
-	22550 14650 22550 15450
 Wire Bus Line
 	30550 14650 30550 15450
 Wire Bus Line
@@ -2827,6 +2823,8 @@ Wire Bus Line
 	26550 14650 26550 15450
 Wire Bus Line
 	24550 14650 24550 15450
+Wire Bus Line
+	22550 14650 22550 15450
 Wire Bus Line
 	20550 14650 20550 15450
 Wire Bus Line
@@ -2844,9 +2842,9 @@ Wire Bus Line
 Wire Bus Line
 	10500 15450 10500 18850
 Wire Bus Line
-	15000 15450 15000 18700
-Wire Bus Line
 	28500 15450 28500 18350
+Wire Bus Line
+	15000 15450 15000 18700
 Wire Bus Line
 	19500 15450 19500 19700
 Wire Bus Line
